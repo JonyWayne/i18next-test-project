@@ -1,8 +1,7 @@
-import React from "react";
 import { Trans, useTranslation } from "react-i18next";
 import { Translation } from "react-i18next";
 
-const Functional = () => {
+export const MainPart = () => {
   const { t } = useTranslation();
 
   return (
@@ -13,12 +12,10 @@ const Functional = () => {
 
           <Trans i18nKey="content.text" />
           <Translation>
-            {(t, { i18n }) => <p>{t("content.text")}</p>}
+            {(t, { i18n }) => <p>{t("content.text2")}</p>}
           </Translation>
         </div>
       </div>
     </div>
   );
 };
-
-export default Functional;

@@ -2,6 +2,13 @@
     "content": {
         "functional": "Hàm",
         "class": "Lớp",
-        "text": "Đây là văn bản"
+        "text": "Đây là văn bản",
+        "text2": "Đáng lẽ phải có một văn bản hoàn toàn khác ở đây"
+    },
+    "list": {
+        "item-1": "Tiểu sử",
+        "item-2": "Tên",
+        "item-3": "Họ",
+        "item-4": "Ý tưởng"
     }
 }

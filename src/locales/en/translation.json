@@ -2,6 +2,13 @@
     "content": {
         "functional": "Functional",
         "class": "Class",
-        "text": "This is text"
+        "text": "This is text",
+        "text2": "This must be another text"
+    },
+    "list": {
+        "item-1": "Biography",
+        "item-2": "Name",
+        "item-3": "Surname",
+        "item-4": "Idea"
     }
 }

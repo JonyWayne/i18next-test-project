@@ -1,15 +1,16 @@
-import React from "react";
 import "./App.css";
-import Header from "./Components/Header";
-import Functional from "./Components/Functional";
+import { LanguageSwitcher } from "./Components/LanguageSwitcher";
+import { MainPart } from "./Components/MainPart";
+import { WordsList } from "./Components/WordsList";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>TEST i18next</p>
-        <Header />
-        <Functional />
+        <LanguageSwitcher />
+        <MainPart />
+        <WordsList />
       </header>
     </div>
   );
